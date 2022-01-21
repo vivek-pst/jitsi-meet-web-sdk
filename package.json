@@ -4,6 +4,7 @@
     "description": "Web SDK for the Jitsi Meet IFrame",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
+    "type":"module",
     "scripts": {
         "build": "tsc",
         "lint": "eslint --ext .ts,.tsx,.js ./src",
